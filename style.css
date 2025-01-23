@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.calculator{
+    height: 88vh;
+    width: 29vw;
+    background-color: coral;
+    border-radius: 5%;
+
+}
+.display{
+    height: 10rem;
+    width: 33.6rem;
+    background-color: aliceblue;
+    border-top-left-radius: 5%;
+    border-top-right-radius:5% ;
+    font-size: 5rem;
+}
+.number{
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 5rem;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+.AC{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 2.5rem;
+    place-items: center;
+    border-radius: 50%;
+    text-align: center;
+}
+.per{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.delete{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.divide{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.seven{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.eight{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.nine{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.multiply{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.four{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.five{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.six{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.substract{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.one{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.two{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.three{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.add{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.doublezero{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.zero{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.decimal{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
+.submit{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    font-size: 3rem;
+    place-items: center;
+    border-radius: 50%;
+}
